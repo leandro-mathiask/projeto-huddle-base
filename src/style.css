@@ -1,0 +1,90 @@
+body{
+    font-family: "Open Sans", sans-serif;
+    background: hsl(257, 40%, 49%) url(../images/bg-desktop.svg) no-repeat center;
+    background-size: cover;
+    height: 100%;
+    
+}
+.cabecalho{
+    padding: 50px 100px;
+}
+
+.container{
+    display: flex;
+    padding: 0 100px;
+    
+}
+.container .image-modelos{
+    width: 55%;
+    margin: auto 0; 
+}
+.container .image-modelos img{
+    width: 100%;
+}
+.container .info{
+    padding-top: 80px;
+    padding-left: 53px;
+    color: white;
+    width: 45%;
+    height: 100%;
+}
+
+.container .info .titulo{
+    font-family: "Poppins", sans-serif;
+    font-size: 50px;
+    padding-bottom: 30px;
+    font-weight: 600;
+}
+
+.container .info .texto{
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 300;
+}
+
+.container .btn-registrar{
+    background-color: white;
+    margin-top: 30px;
+    padding: 20px;
+    border-radius: 30px;
+    width: 200px;
+    height: 60px;
+    color: hsla(257, 40%, 49%, 0.404);
+    font-size: 16px;
+    font-weight: 600;
+    
+}
+
+.container .btn-registrar:hover{
+    background-color: hsl(300, 69%, 71%);
+    color: white;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+.rodape{
+    display: flex;
+    justify-content: end;
+}
+
+.rodape .social{
+    display: flex;
+    height: 100%;
+    margin-top: 16px;
+}
+.rodape .social .social-list{
+    padding-right: 15px;
+
+}
+.rodape .social .social-list a i{
+    color: white;
+    padding: 11px;
+    border: 1px solid;
+    border-radius: 50%;
+}
+.rodape .social .social-list a i:hover{
+    background-color: hsl(300, 69%, 71%);
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+

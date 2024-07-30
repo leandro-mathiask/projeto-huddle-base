@@ -1,0 +1,73 @@
+@media (max-width: 1200px) {
+    body{
+        background: hsl(257, 40%, 49%) url(../images/bg-mobile.svg) no-repeat center;
+        background-size: cover;
+    }
+    .cabecalho{
+        padding: 50px 50px;
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+        padding: 0 50px;
+    }
+
+    .container .image-modelos{
+        min-width: 100%;
+    }
+
+    .container .info{
+        display: flex;
+        flex-direction: column;
+        padding: 50px 0;
+        width: 100%;
+        align-items: center;
+        text-align: center;
+    }
+
+    .rodape{
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media (max-width: 750px) {
+    .cabecalho img{
+        width: 180px;
+    }
+    .container .info .titulo{
+        font-size: 36px
+    }
+    .container .info .texto{
+        font-size: 20px;
+    }
+    .container .info .btn-registrar{
+        font-size: 14px;
+        padding: 14px 60px;
+    }
+    .rodape a i{
+        font-size: 20px;
+        width: 40px;
+        height: 40px;
+    }
+}
+
+@media (max-width: 600px) {
+    .container .info .titulo{
+        font-size: 30px
+    }
+    .container .info .texto{
+        font-size: 18px;
+    }
+    
+}
+
+@media (max-width: 450px) {
+    .container .info .titulo{
+        font-size: 25px
+    }
+    .container .info .texto{
+        font-size: 16px;
+    }
+    
+}
