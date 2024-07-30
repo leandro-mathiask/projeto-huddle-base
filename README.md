@@ -37,8 +37,7 @@ Mobile
 
 ### Links
 
-- URL da Solução: [GitHub Repositório](https://github.com/leandro-mathiask/...)
-- URL do Site ao Vivo: [GitHub Page](https://leandro-mathiask.github.io/.../)
+- URL da Solução: [GitHub Repositório](https://github.com/leandro-mathiask/projeto-huddle-base.git)
 
 ## Meu Processo
 
